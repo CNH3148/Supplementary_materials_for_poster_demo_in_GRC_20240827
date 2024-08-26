@@ -5,13 +5,14 @@
 
 有興趣的夥伴可以在自己的電腦按以下步驟安裝並嘗試：
 
-1. [安裝 miniconda (或 anaconda)](https://docs.anaconda.com/miniconda/)
+1. [安裝 miniconda](https://docs.anaconda.com/miniconda/) (或 anaconda)
 2. 打開終端機 (powershell 或 bash 什麼都可以)，輸入以下指令
 3. `conda config --add channels conda-forge`
 4. `conda create -n general python numpy pandas matplotlib seaborn`
 5. `conda create -n opencv python numpy opencv-python`
 6. 最後視你要執行的程式需求，透過 `conda activate general` 或 `conda activate opencv` 來切換執行環境 \[ps.\]
-8. 當然如果你用 `jupyter lab --notebook-dir=/path/to/your/directory/Supplementary_code_demo.ipynb`，就可以透過 GUI 變更執行環境了。
+7. 當然如果你用 `jupyter lab --notebook-dir=/path/to/your/directory/Supplementary_code_demo.ipynb`，就可以透過 GUI 變更執行環境了。
+8. 不過最好的方法還是直接在終端機執行腳本，因為我一開始就是這麼設計程式的：`python "input-my-python-script-directory"`
 
 ps.
 
