@@ -10,7 +10,7 @@
 3. `conda config --add channels conda-forge`
 4. `conda create -n general python numpy pandas matplotlib seaborn`
 5. `conda create -n opencv python numpy opencv-python`
-6. 最後視你要執行的程式需求，透過 `conda activate general` 或 `conda activate opencv` 來切換執行環境\[ps.\]
+6. 最後視你要執行的程式需求，透過 `conda activate general` 或 `conda activate opencv` 來切換執行環境 \[ps.\]
 8. 當然如果你用 `jupyter lab --notebook-dir=/path/to/your/directory/Supplementary_code_demo.ipynb`，就可以透過 GUI 變更執行環境了。
 
 ps.
